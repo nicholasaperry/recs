@@ -28,6 +28,10 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# debug / build artifacts
+__debug_bin.exe
+__debug_bin
+
 # IntelliJ based IDEs
 .idea
 
