@@ -1,0 +1,23 @@
+# fly.toml - https://fly.io/docs/reference/configuration/
+
+app = "playtime"
+primary_region = "ord"
+
+[build]
+
+[env]
+  PORT = "8080"
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "stop"
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ["app"]
+
+# Persistent volume for file-based DB (e.g. SQLite). Create with:
+#   fly volumes create data --size 1 --region <your-region>
+[mounts]
+  source = "data"
+  destination = "/data"
