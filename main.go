@@ -2,7 +2,7 @@ package main
 
 import (
 	"os"
-	"playtime/api"
+	"sommelier/api"
 
 	"github.com/joho/godotenv"
 )

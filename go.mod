@@ -1,4 +1,4 @@
-module playtime
+module sommelier
 
 go 1.26.0
 

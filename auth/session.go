@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	SessionCookieName = "playtime_session"
+	SessionCookieName = "sommelier_session"
 	SessionSecretEnv  = "SESSION_SECRET"
 )
 

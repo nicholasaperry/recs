@@ -2,8 +2,8 @@ package api
 
 import (
 	"net/http"
-	"playtime/auth"
-	"playtime/games"
+	"sommelier/auth"
+	"sommelier/games"
 )
 
 func RegisterRoutes(router *http.ServeMux) {

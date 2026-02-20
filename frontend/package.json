@@ -1,5 +1,5 @@
 {
-  "name": "playtime-frontend",
+  "name": "sommelier-frontend",
   "private": true,
   "scripts": {
     "build": "bun build ./index.html --outdir ./dist",

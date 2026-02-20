@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "playtime-frontend",
+      "name": "sommelier-frontend",
       "dependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0",

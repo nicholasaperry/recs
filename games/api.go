@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"os"
-	"playtime/auth"
+	"sommelier/auth"
 )
 
 func HandleGetLibrary(w http.ResponseWriter, r *http.Request) {
