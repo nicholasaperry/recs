@@ -1,12 +1,11 @@
 # fly.toml - https://fly.io/docs/reference/configuration/
 
-app = "playtime"
-primary_region = "ord"
+app = "sommelier"
+primary_region = "iad"
 
 [build]
 
 [env]
-  PORT = "8080"
 
 [http_service]
   internal_port = 8080
